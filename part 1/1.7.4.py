@@ -5,7 +5,6 @@
 (по мнению Valve, конечно) и напишите какое число ролей у большинства героев.
 '''
 
-
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -24,3 +23,7 @@ df['number_of_roles'] = df.roles.str.count(',') + 1
 df.number_of_roles.hist()
 plt.show()
 print(df)
+'1'.isdigit()
+
+
+plt.plot(rot=45)
